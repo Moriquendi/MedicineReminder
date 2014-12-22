@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9006FF4B1A482BCD00DD340A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9006FF4A1A482BCD00DD340A /* AppDelegate.swift */; };
+		9006FF4D1A482BCD00DD340A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9006FF4C1A482BCD00DD340A /* ViewController.swift */; };
+		9006FF501A482BCD00DD340A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9006FF4E1A482BCD00DD340A /* Main.storyboard */; };
+		9006FF521A482BCD00DD340A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9006FF511A482BCD00DD340A /* Images.xcassets */; };
+		9006FF551A482BCD00DD340A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9006FF531A482BCD00DD340A /* LaunchScreen.xib */; };
+		9006FF611A482BCD00DD340A /* DrugsReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9006FF601A482BCD00DD340A /* DrugsReminderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9006FF5B1A482BCD00DD340A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9006FF3D1A482BCD00DD340A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9006FF441A482BCD00DD340A;
+			remoteInfo = DrugsReminder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9006FF451A482BCD00DD340A /* DrugsReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrugsReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9006FF491A482BCD00DD340A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9006FF4A1A482BCD00DD340A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9006FF4C1A482BCD00DD340A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9006FF4F1A482BCD00DD340A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9006FF511A482BCD00DD340A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9006FF541A482BCD00DD340A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9006FF5A1A482BCD00DD340A /* DrugsReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrugsReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9006FF5F1A482BCD00DD340A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9006FF601A482BCD00DD340A /* DrugsReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugsReminderTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9006FF421A482BCD00DD340A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9006FF571A482BCD00DD340A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9006FF3C1A482BCD00DD340A = {
+			isa = PBXGroup;
+			children = (
+				9006FF471A482BCD00DD340A /* DrugsReminder */,
+				9006FF5D1A482BCD00DD340A /* DrugsReminderTests */,
+				9006FF461A482BCD00DD340A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9006FF461A482BCD00DD340A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9006FF451A482BCD00DD340A /* DrugsReminder.app */,
+				9006FF5A1A482BCD00DD340A /* DrugsReminderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9006FF471A482BCD00DD340A /* DrugsReminder */ = {
+			isa = PBXGroup;
+			children = (
+				9006FF4A1A482BCD00DD340A /* AppDelegate.swift */,
+				9006FF4C1A482BCD00DD340A /* ViewController.swift */,
+				9006FF4E1A482BCD00DD340A /* Main.storyboard */,
+				9006FF511A482BCD00DD340A /* Images.xcassets */,
+				9006FF531A482BCD00DD340A /* LaunchScreen.xib */,
+				9006FF481A482BCD00DD340A /* Supporting Files */,
+			);
+			path = DrugsReminder;
+			sourceTree = "<group>";
+		};
+		9006FF481A482BCD00DD340A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9006FF491A482BCD00DD340A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9006FF5D1A482BCD00DD340A /* DrugsReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				9006FF601A482BCD00DD340A /* DrugsReminderTests.swift */,
+				9006FF5E1A482BCD00DD340A /* Supporting Files */,
+			);
+			path = DrugsReminderTests;
+			sourceTree = "<group>";
+		};
+		9006FF5E1A482BCD00DD340A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9006FF5F1A482BCD00DD340A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9006FF441A482BCD00DD340A /* DrugsReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9006FF641A482BCD00DD340A /* Build configuration list for PBXNativeTarget "DrugsReminder" */;
+			buildPhases = (
+				9006FF411A482BCD00DD340A /* Sources */,
+				9006FF421A482BCD00DD340A /* Frameworks */,
+				9006FF431A482BCD00DD340A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrugsReminder;
+			productName = DrugsReminder;
+			productReference = 9006FF451A482BCD00DD340A /* DrugsReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9006FF591A482BCD00DD340A /* DrugsReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9006FF671A482BCD00DD340A /* Build configuration list for PBXNativeTarget "DrugsReminderTests" */;
+			buildPhases = (
+				9006FF561A482BCD00DD340A /* Sources */,
+				9006FF571A482BCD00DD340A /* Frameworks */,
+				9006FF581A482BCD00DD340A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9006FF5C1A482BCD00DD340A /* PBXTargetDependency */,
+			);
+			name = DrugsReminderTests;
+			productName = DrugsReminderTests;
+			productReference = 9006FF5A1A482BCD00DD340A /* DrugsReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9006FF3D1A482BCD00DD340A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Prismake;
+				TargetAttributes = {
+					9006FF441A482BCD00DD340A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					9006FF591A482BCD00DD340A = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 9006FF441A482BCD00DD340A;
+					};
+				};
+			};
+			buildConfigurationList = 9006FF401A482BCD00DD340A /* Build configuration list for PBXProject "DrugsReminder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9006FF3C1A482BCD00DD340A;
+			productRefGroup = 9006FF461A482BCD00DD340A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9006FF441A482BCD00DD340A /* DrugsReminder */,
+				9006FF591A482BCD00DD340A /* DrugsReminderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9006FF431A482BCD00DD340A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9006FF501A482BCD00DD340A /* Main.storyboard in Resources */,
+				9006FF551A482BCD00DD340A /* LaunchScreen.xib in Resources */,
+				9006FF521A482BCD00DD340A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9006FF581A482BCD00DD340A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9006FF411A482BCD00DD340A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9006FF4D1A482BCD00DD340A /* ViewController.swift in Sources */,
+				9006FF4B1A482BCD00DD340A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9006FF561A482BCD00DD340A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9006FF611A482BCD00DD340A /* DrugsReminderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9006FF5C1A482BCD00DD340A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9006FF441A482BCD00DD340A /* DrugsReminder */;
+			targetProxy = 9006FF5B1A482BCD00DD340A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9006FF4E1A482BCD00DD340A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9006FF4F1A482BCD00DD340A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9006FF531A482BCD00DD340A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9006FF541A482BCD00DD340A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9006FF621A482BCD00DD340A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9006FF631A482BCD00DD340A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9006FF651A482BCD00DD340A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrugsReminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9006FF661A482BCD00DD340A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrugsReminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9006FF681A482BCD00DD340A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrugsReminderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrugsReminder.app/DrugsReminder";
+			};
+			name = Debug;
+		};
+		9006FF691A482BCD00DD340A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrugsReminderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrugsReminder.app/DrugsReminder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9006FF401A482BCD00DD340A /* Build configuration list for PBXProject "DrugsReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9006FF621A482BCD00DD340A /* Debug */,
+				9006FF631A482BCD00DD340A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9006FF641A482BCD00DD340A /* Build configuration list for PBXNativeTarget "DrugsReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9006FF651A482BCD00DD340A /* Debug */,
+				9006FF661A482BCD00DD340A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9006FF671A482BCD00DD340A /* Build configuration list for PBXNativeTarget "DrugsReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9006FF681A482BCD00DD340A /* Debug */,
+				9006FF691A482BCD00DD340A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9006FF3D1A482BCD00DD340A /* Project object */;
+}
