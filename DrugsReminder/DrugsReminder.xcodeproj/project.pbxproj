@@ -13,6 +13,8 @@
 		9006FF521A482BCD00DD340A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9006FF511A482BCD00DD340A /* Images.xcassets */; };
 		9006FF551A482BCD00DD340A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9006FF531A482BCD00DD340A /* LaunchScreen.xib */; };
 		9006FF611A482BCD00DD340A /* DrugsReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9006FF601A482BCD00DD340A /* DrugsReminderTests.swift */; };
+		90BC796A1A49FE5B0095446A /* AppDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90BC79681A49FE5B0095446A /* AppDatabase.xcdatamodeld */; };
+		90BC79731A4A00170095446A /* Drug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BC79721A4A00170095446A /* Drug.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		9006FF5A1A482BCD00DD340A /* DrugsReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrugsReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9006FF5F1A482BCD00DD340A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9006FF601A482BCD00DD340A /* DrugsReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugsReminderTests.swift; sourceTree = "<group>"; };
+		90BC79691A49FE5B0095446A /* AppDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppDatabase.xcdatamodel; sourceTree = "<group>"; };
+		90BC79721A4A00170095446A /* Drug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Drug.swift; path = Classes/Model/Drug.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 				9006FF4E1A482BCD00DD340A /* Main.storyboard */,
 				9006FF511A482BCD00DD340A /* Images.xcassets */,
 				9006FF531A482BCD00DD340A /* LaunchScreen.xib */,
+				90BC79741A4A00210095446A /* Classes */,
 				9006FF481A482BCD00DD340A /* Supporting Files */,
 			);
 			path = DrugsReminder;
@@ -110,6 +115,23 @@
 				9006FF5F1A482BCD00DD340A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90BC79741A4A00210095446A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				90BC79751A4A00260095446A /* Model */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		90BC79751A4A00260095446A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90BC79681A49FE5B0095446A /* AppDatabase.xcdatamodeld */,
+				90BC79721A4A00170095446A /* Drug.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +235,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9006FF4D1A482BCD00DD340A /* ViewController.swift in Sources */,
+				90BC796A1A49FE5B0095446A /* AppDatabase.xcdatamodeld in Sources */,
 				9006FF4B1A482BCD00DD340A /* AppDelegate.swift in Sources */,
+				90BC79731A4A00170095446A /* Drug.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +429,7 @@
 				9006FF661A482BCD00DD340A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9006FF671A482BCD00DD340A /* Build configuration list for PBXNativeTarget "DrugsReminderTests" */ = {
 			isa = XCConfigurationList;
@@ -413,8 +438,23 @@
 				9006FF691A482BCD00DD340A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		90BC79681A49FE5B0095446A /* AppDatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				90BC79691A49FE5B0095446A /* AppDatabase.xcdatamodel */,
+			);
+			currentVersion = 90BC79691A49FE5B0095446A /* AppDatabase.xcdatamodel */;
+			name = AppDatabase.xcdatamodeld;
+			path = Classes/Model/AppDatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9006FF3D1A482BCD00DD340A /* Project object */;
 }
