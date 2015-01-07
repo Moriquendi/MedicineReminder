@@ -15,6 +15,7 @@
 		9006FF611A482BCD00DD340A /* DrugsReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9006FF601A482BCD00DD340A /* DrugsReminderTests.swift */; };
 		90BC796A1A49FE5B0095446A /* AppDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90BC79681A49FE5B0095446A /* AppDatabase.xcdatamodeld */; };
 		90BC79731A4A00170095446A /* Drug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BC79721A4A00170095446A /* Drug.swift */; };
+		90BC79771A4A33140095446A /* EditDrugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BC79761A4A33140095446A /* EditDrugViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		9006FF601A482BCD00DD340A /* DrugsReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugsReminderTests.swift; sourceTree = "<group>"; };
 		90BC79691A49FE5B0095446A /* AppDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppDatabase.xcdatamodel; sourceTree = "<group>"; };
 		90BC79721A4A00170095446A /* Drug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Drug.swift; path = Classes/Model/Drug.swift; sourceTree = "<group>"; };
+		90BC79761A4A33140095446A /* EditDrugViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditDrugViewController.swift; path = Classes/ViewControllers/EditDrugViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				90BC79751A4A00260095446A /* Model */,
+				90BC79781A4A33170095446A /* ViewControllers */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -132,6 +135,14 @@
 				90BC79721A4A00170095446A /* Drug.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		90BC79781A4A33170095446A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				90BC79761A4A33140095446A /* EditDrugViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90BC79771A4A33140095446A /* EditDrugViewController.swift in Sources */,
 				9006FF4D1A482BCD00DD340A /* ViewController.swift in Sources */,
 				90BC796A1A49FE5B0095446A /* AppDatabase.xcdatamodeld in Sources */,
 				9006FF4B1A482BCD00DD340A /* AppDelegate.swift in Sources */,
